@@ -3,6 +3,7 @@
 require_once "templates/cabecalho.php";
 ?>
 
+
 <style>
   .img1 {
     width: 100%;
