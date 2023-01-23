@@ -63,17 +63,7 @@
 
 
   
-  .menu:hover {
 
-      
-letter-spacing: 3px;
-color: white;
--webkit-transition: 0.2s ease-out;
--moz-transition: 0.2s ease-out;
--o-transition: 0.2s ease-out;
-transition: 0.2s ease-out;
-
-}
 
   .carousel-inner {
     margin-top:6%;
