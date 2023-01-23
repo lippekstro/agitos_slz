@@ -262,12 +262,12 @@
 
 
 
-      <li> <a href=""> Sobre</a></li>
+      <li> <a href="sobre.PHP"> Sobre</a></li>
       <li> <a href="">Eventos </a></li>
       <li> <a href=""> Experiencias </a></li>
       <li> <a href="">Locais</a></li>
       <li> <a href=""> Blog</a></li>
-      <li> <a href=""> Inicio </a></li>
+      <li> <a href="index.php"> Inicio </a></li>
 
     </ul>
   </div>
