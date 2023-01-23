@@ -4,7 +4,6 @@ require_once "templates/cabecalho.php";
 
  <!---- Imagem Superior acima do Menu-->
 
-  
     
 
     <div class="container">
@@ -60,6 +59,7 @@ require_once "templates/cabecalho.php";
     <img src="img/a2.jpg" alt="Trulli" width="0%" height="300">
     <img src="img/a14.jpg" alt="Trulli" width="30%" height="300">
     <img src="img/a2.jpg" alt="Trulli" width="10%" height="300">
+  </div>
    
 <!--- Segunda Coluna de Imagens -->
 
