@@ -69,6 +69,9 @@
         </div>
 
     </footer>
+
+ 
+  <script src="<?= dirname('/agitos_slz/js/conteudolocais.js') . DIRECTORY_SEPARATOR . 'conteudolocais.js';?>"></script>
 </body>
 
 </html>

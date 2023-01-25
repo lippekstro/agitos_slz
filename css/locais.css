@@ -1,0 +1,178 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: all 0.4s;
+  } */
+
+  .container-all-local {
+    width: auto;
+    padding: 1rem;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-box-all-local {
+    width: auto;
+    padding: 1rem;
+    /* background-color: rgb(42, 165, 136); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+
+  }
+
+  .content-div-all {
+    width: 35rem;
+    padding: 1rem;
+    /* background-color: blueviolet; */
+    margin: 0 0 1rem 0;
+
+  }
+
+  .box-content-div {
+    width: auto;
+    padding: 1rem;
+    /* background-color: rgb(224, 234, 30); */
+    
+  }
+
+  .box-content-div {
+    width: auto;
+    /* background-color: rgb(255, 145, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-div-h1-local {
+    width: 100%;
+    padding: 1rem;
+    /* background-color: rgb(255, 0, 170); */
+  }
+
+  .content-div-h1-local {
+    width: 100%;
+    padding: 1rem;
+    /* background-color: rgb(255, 0, 170); */
+    margin: 0 0 0 0;
+
+  }
+
+  .content-div-h1-local h1 {
+    text-align: center;
+    font-family: 'Oregano', cursive;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+
+  .content-div-h1-img {
+    width: 90%;
+    /* background-color: rgb(0, 209, 246); */
+    height: 27rem;
+    border-radius: 0 6rem 0 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-div-h1-img img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .content-div-h1-img img:hover {
+    transform: scale(1.1);
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+  }
+
+  /* .content-div-h1-img::before { 
+    display: block;
+    content: "selecione";
+    width: 9rem;
+    height: 4rem;
+    background-color: rgb(0, 170, 255);
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 30%;
+    border-radius: 0.5rem;
+    color: white;
+  } */
+
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .photo{
+    width: 20rem;
+    height: 10rem;
+    background-color:brown;
+    position: absolute;
+
+    left:0;
+    top: 0;
+  }
