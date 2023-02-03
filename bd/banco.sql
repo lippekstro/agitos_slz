@@ -29,8 +29,8 @@ create table locais (
     id_local int not null auto_increment,
     nome varchar(250) not null,
     endereco varchar(250) not null,
-    categoria enum('fazer', 'ficar', 'comer'),
-    tipo enum('praia', 'museu', 'praca', 'parque', 'centro historico', 'igreja', 'artesanato', 'hotel', 'pousada', 'hostel', 'restaurante', 'bar', 'cafe'),
+    categoria enum('fazer', 'ficar', 'comer') not null default 'fazer',
+    tipo enum('praia', 'museu', 'praca', 'parque', 'centro historico', 'igreja', 'artesanato', 'hotel', 'pousada', 'hostel', 'restaurante', 'bar', 'cafe') not null default 'centro historico',
     primary key (id_local)
 );
 
