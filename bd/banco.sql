@@ -29,7 +29,11 @@ create table categoria (
     id_categoria int not null auto_increment,
     nome_categoria enum('ficar', 'fazer', 'comer'),
     primary key (id_categoria)
-)
+);
+
+insert into categoria (nome_categoria) values ('fazer');
+insert into categoria (nome_categoria) values ('ficar');
+insert into categoria (nome_categoria) values ('comer');
 
 create table locais (
     id_local int not null auto_increment,
@@ -44,8 +48,8 @@ create table eventos (
     id_evento int not null auto_increment,
     nome_evento varchar(250) not null,
     imagem_evento longblob,
-    hora timestamp not null,
-    data_evento timestamp not null,
+    hora time not null,
+    data_evento date not null,
     descricao_evento longtext,
     primary key(id_evento)
 );
