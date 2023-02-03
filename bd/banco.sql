@@ -25,23 +25,13 @@ create table postagem (
     foreign key (id_usuario) references usuario(id_usuario)
 );
 
-create table categoria (
-    id_categoria int not null auto_increment,
-    nome_categoria enum('ficar', 'fazer', 'comer'),
-    primary key (id_categoria)
-);
-
-insert into categoria (nome_categoria) values ('fazer');
-insert into categoria (nome_categoria) values ('ficar');
-insert into categoria (nome_categoria) values ('comer');
-
 create table locais (
     id_local int not null auto_increment,
     nome varchar(250) not null,
     endereco varchar(250) not null,
-    id_categoria int not null,
-    primary key (id_local),
-    foreign key (id_categoria) references categoria(id_categoria)
+    categoria enum('fazer', 'ficar', 'comer'),
+    tipo enum('praia', 'museu', 'praca', 'parque', 'centro historico', 'igreja', 'artesanato', 'hotel', 'pousada', 'hostel', 'restaurante', 'bar', 'cafe'),
+    primary key (id_local)
 );
 
 create table eventos (
