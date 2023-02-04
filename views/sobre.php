@@ -1,3 +1,8 @@
+<?php
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
+?>
+
+
 <style>
   .img1 {
     width: 100%;
@@ -71,122 +76,112 @@
   }
 </style>
 
+</div>
 
-<body>
+<div class="texto">
+  <h1>Quem Somos </h1>
+</div>
+<div class="img1">
+  <img src="/agitos_slz/img/oooo.jpg" alt="target" width="40%" height="450">
 
-  <!---- Imagem Superior acima do Menu-->
-
-
-
-
-
-
-  </div>
-
-  <div class="texto">
-    <h1>Quem Somos </h1>
-  </div>
-  <div class="img1">
-    <img src="img/oooo.jpg" alt="target" width="40%" height="450">
-
-    <p>
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
+  <p>
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
 
 
 
 
 
-    </P>
+  </P>
 
-  </div>
+</div>
 
 
-  <div class="img2">
+<div class="img2">
 
-    <P>
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      epois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto deComeça a aceitar suas
-      derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto deComeça a aceitar suas
-      derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
+  <P>
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    epois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto deComeça a aceitar suas
+    derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto deComeça a aceitar suas
+    derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
 
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      epois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    epois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
 
 
 
@@ -194,50 +189,53 @@
 
 
 
-    </P>
-    <img src="img/azu.jpg" alt="target" width="40%" height="600">
+  </P>
+  <img src="/agitos_slz/img/azu.jpg" alt="target" width="40%" height="600">
 
 
-  </div>
-
-
-
-  <div class="img3">
-    <img src="img/cabure.jpg" alt="target" width="40%" height="450">
-
-    <p>
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
-      Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-      de uma criança.
-      Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-      Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-      aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-      beijos não são contratos e que presentes não são promessas.
+</div>
 
 
 
+<div class="img3">
+  <img src="/agitos_slz/img/cabure.jpg" alt="target" width="40%" height="450">
 
-
-    </P>
-
-  </div>
+  <p>
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
+    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
+    de uma criança.
+    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
+    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
+    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
+    beijos não são contratos e que presentes não são promessas.
 
 
 
 
-  </div>
-</body>
+
+  </P>
+
+</div>
+
+
+
+
+</div>
+
+<?php
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/rodape.php';
+?>
