@@ -1,107 +1,108 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    
-}
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-a{
-    text-decoration: none;
+/* carrossel */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
-a.links{
+.mySlides {
     display: none;
 }
 
-#iconesocial{
-    display: flex;
-    
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
-ul {
-    list-style-type: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
- 
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-li a:hover {
-    background-color:  red;
-}
-li a{
-    display: block;
-    color: black;
-    padding: 12px;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
 
-
-#carouselExampleInterval {
-    display: flex;
-    justify-content:center ;
-    height: 450px;
-    margin-left: 1%;
-    margin-right: 1%;
-   
-    
-
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
-.imgcarrocel {
-   
-    height: 450px;
-    width: 100%;
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
+
 .corpo {
     display: flex;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
 }
-
 
 td {
     text-align: center;
 }
-#titulo{
+
+#titulo {
     text-align: center;
 }
 
+.esp img {
+    width: 30rem;
+    height: 30rem;
+}
 
-.especialidadesimg {
-  margin: 15px;
-  height: 270px;
-  width: 280px;
-  
+.esp a {
+    text-decoration: none;
+    color: black;
 }
 
 .conteinerespecialidades {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
-}
-#whts {
-    position: fixed;
-    bottom: 0;
-    width: 50px;
-    right: 10px;
-    
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-footer {
-    color: white;
-    background-color: red;
-    display: flex; 
-    height: 60px;
-    justify-content: center;
-    text-align: center;
+.esp {
+    width: 25%;
+    margin: 1rem;
 }
-@media screen and (max-width:800px) {
-    .left, .main, .right {
-        width: 100%;
-    }
-}
+
+@media screen and (max-width:60px) {}

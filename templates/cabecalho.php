@@ -15,18 +15,17 @@
   <link rel="stylesheet" href="/agitos_slz/css/blog.css">
   <link rel="stylesheet" href="/agitos_slz/css/cards.css">
   <link rel="stylesheet" href="/agitos_slz/css/sobre.css">
+  <link rel="stylesheet" href="/agitos_slz/css/eventos.css">
+  <link rel="stylesheet" href="/agitos_slz/css/experiencias.css">
+  <link rel="stylesheet" href="/agitos_slz/css/locais.css">
 </head>
 
-
-
 <body>
-  <!---- Imagem Superior acima do Menu-->
   <header>
+    <!---- Imagem Superior acima do Menu-->
     <div class="img">
-      <img src="/agitos_slz/img/R.jpg" alt="Trulli" width="100%" height="300rem">
+      <img src="/agitos_slz/img/R.jpg" alt="" width="100%" height="300rem">
     </div>
-
-
     <!-- Menu-->
     <div class="menu">
       <div>
