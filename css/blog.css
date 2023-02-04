@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    width: 70%;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 95%;
+    padding: 1rem;
+    left: 50%;
+    translate: -50%;
+}
