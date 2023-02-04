@@ -1,0 +1,27 @@
+.quem-somos-esquerda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    text-align: justify;
+
+}
+
+.quem-somos-direita{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    text-align: justify;
+}
+
+.quem-somos-txt {
+    width: 50%;
+}
+
+/* img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+} */

@@ -2,239 +2,36 @@
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
 ?>
 
+<section>
+  <h1 style="text-align: right;">Quem Somos</h1>
 
-<style>
-  .img1 {
-    width: 100%;
-    margin-top: -25%;
-    text-align: justify;
-  }
+  <div class="quem-somos-esquerda">
+    <img src="/agitos_slz/img/oooo.jpg" alt="" width="40%" height="auto">
+    <p class="quem-somos-txt">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+    </p>
+  </div>
 
-  .img1,
-  p {
-    display: flex;
-    align-items: flex-start;
-    padding: 3%;
-  }
+  <div class="quem-somos-direita">
+    <img src="/agitos_slz/img/azu.jpg" alt="" width="40%" height="auto">
+    <p class="quem-somos-txt">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dicta aut ducimus quidem nesciunt qui obcaecati rem libero? Hic enim perferendis, laudantium eaque reiciendis tempore fugit repellat maiores repudiandae laboriosam.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+    </p>
+  </div>
 
-
-  .img2 {
-    margin-top: -5%;
-    width: 100%;
-
-    float: right;
-    text-align: justify;
-
-  }
-
-  .img2,
-  p {
-    display: flex;
-    align-items: flex-start;
-
-  }
-
-  .img3 {
-
-    width: 100%;
-    margin-top: -10%;
-    text-align: justify;
-
-  }
-
-
-  .img3,
-  p {
-    display: flex;
-    align-items: flex-start;
-    padding: 3%;
-  }
-
-  img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-    cursor: pointer;
-  }
-
-  .texto {
-    float: right;
-    margin-top: 3%;
-
-
-    font-size: 30px;
-  }
-
-
-  .r:link {
-    text-decoration: none;
-    color: white;
-  }
-
-  .r:visited {
-
-    color: white;
-  }
-</style>
-
-</div>
-
-<div class="texto">
-  <h1>Quem Somos </h1>
-</div>
-<div class="img1">
-  <img src="/agitos_slz/img/oooo.jpg" alt="target" width="40%" height="450">
-
-  <p>
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-
-
-
-
-
-  </P>
-
-</div>
-
-
-<div class="img2">
-
-  <P>
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    epois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto deComeça a aceitar suas
-    derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto deComeça a aceitar suas
-    derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    epois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-
-
-
-
-
-
-
-  </P>
-  <img src="/agitos_slz/img/azu.jpg" alt="target" width="40%" height="600">
-
-
-</div>
-
-
-
-<div class="img3">
-  <img src="/agitos_slz/img/cabure.jpg" alt="target" width="40%" height="450">
-
-  <p>
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-    Começa a aceitar suas derrotas com a cabeça erguida e olhos adiante, com a graça de um adulto e não com a tristeza
-    de uma criança.
-    Aprende a construir todas as suas estradas no hoje, porque o terreno do amanhã é incerto de
-    Depois de algum tempo você aprende a diferença, a sutil diferença entre dar a mão e acorrentar uma alma. E você
-    aprende que amar não significa apoiar-se. E que companhia nem sempre significa segurança. Começa a aprender que
-    beijos não são contratos e que presentes não são promessas.
-
-
-
-
-
-  </P>
-
-</div>
-
-
-
-
-</div>
+  <div class="quem-somos-esquerda">
+    <img src="/agitos_slz/img/cabure.jpg" alt="target" width="40%" height="auto">
+    <p class="quem-somos-txt">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt deleniti temporibus hic, distinctio autem enim natus ipsam totam fuga voluptas voluptates iste necessitatibus obcaecati quod ex quis quae rem! Quis?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est voluptatibus esse animi laboriosam quo architecto, ut temporibus quae cupiditate quod dolores veniam, perspiciatis voluptatem. Officiis reprehenderit saepe inventore provident.
+    </p>
+  </div>
+</section>
 
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/rodape.php';

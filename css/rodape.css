@@ -38,3 +38,9 @@ footer a:hover {
 #logo-rodape {
     margin: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .container-rodape {
+        display: none;
+    }
+}

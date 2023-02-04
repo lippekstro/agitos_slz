@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="/agitos_slz/css/rodape.css">
   <link rel="stylesheet" href="/agitos_slz/css/blog.css">
   <link rel="stylesheet" href="/agitos_slz/css/cards.css">
+  <link rel="stylesheet" href="/agitos_slz/css/sobre.css">
 </head>
 
 
