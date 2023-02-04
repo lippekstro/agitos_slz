@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.container-rodape {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coluna-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+    font-size: larger;
+}
+
+footer span {
+    font-size: larger;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#logo-rodape {
+    margin: 2rem;
+}
