@@ -23,25 +23,25 @@ try {
 </section>
 
 <section class="container-cards">
-  <?php foreach ($lista as $post) : ?>
+  <?php for ($i=1; $i < count($lista); $i++): ?>
     <div class="card">
-      <a href="/agitos_slz/views/blog_exibe.php?id_post=<?= $post['id_post'] ?>">
+      <a href="/agitos_slz/views/blog_exibe.php?id_post=<?= $lista[$i]['id_post'] ?>">
         <div class="card-head">
-          <h2><?= $post['titulo'] ?></h2>
+          <h2><?= $lista[$i]['titulo'] ?></h2>
           <div class="container-autor-data">
-            <h5><?= $post['nome_autor'] ?></h5>
-            <h5><?= $post['data_publicacao'] ?></h5>
+            <h5><?= $lista[$i]['nome_autor'] ?></h5>
+            <h5><?= $lista[$i]['data_publicacao'] ?></h5>
           </div>
         </div>
         <div class="card-img">
-          <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($post['imagem_post']); ?>" alt="" width="100%" height="auto">
+          <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_post']); ?>" alt="" width="100%" height="auto">
         </div>
         <div class="card-container">
-          <p><?= $post['conteudo'] ?></p>
+          <p><?= $lista[$i]['conteudo'] ?></p>
         </div>
       </a>
     </div>
-  <?php endforeach; ?>
+  <?php endfor; ?>
 </section>
 
 <?php
