@@ -72,6 +72,42 @@ li a {
   width: 25%;
 }
 
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.sucesso {
+  border: 1px solid #04AA6D;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.sucesso:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+}
+
+.form-item {
+  margin: 1rem;
+}
+
 @media screen and (max-width:600px) {
   ul {
     justify-content: center;

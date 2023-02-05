@@ -1,0 +1,28 @@
+.container-table{
+    overflow-x: auto;
+}
+
+caption {
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table img {
+    width: 10rem;
+    height: 10rem;
+}
+
+th, td {
+    padding: 1rem;
+}

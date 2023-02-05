@@ -1,3 +1,7 @@
+<?php 
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/bd/conexao.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -10,6 +14,8 @@
   <link rel="shortcut icon" href="/agitos_slz/img/logo01.jpg" type="image/x-icon">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
   <link rel="stylesheet" href="/agitos_slz/css/style.css">
   <link rel="stylesheet" href="/agitos_slz/css/rodape.css">
   <link rel="stylesheet" href="/agitos_slz/css/blog.css">
@@ -18,6 +24,7 @@
   <link rel="stylesheet" href="/agitos_slz/css/eventos.css">
   <link rel="stylesheet" href="/agitos_slz/css/experiencias.css">
   <link rel="stylesheet" href="/agitos_slz/css/locais.css">
+  <link rel="stylesheet" href="/agitos_slz/css/tabelas.css">
 </head>
 
 <body>

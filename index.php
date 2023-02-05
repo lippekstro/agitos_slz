@@ -1,5 +1,13 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/models/imagem.php';
+
+try {
+  $lista = Imagem::listar();
+} catch (Exception $e) {
+  echo $e->getMessage();
+}
+
 ?>
 
 <section>
@@ -14,39 +22,34 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
 
       <!---Imagens do Carrosel-->
       <div class="carousel-inner">
-        <div class="item active">
-          <img src="https://source.unsplash.com/random/1920x1080/?museum" alt="" width="100%" height="auto">
-        </div>
+        <?php for ($i = 0; $i < 3; $i++) : ?>
+          <?php if ($i == 0) : ?>
+            <div class="item active">
+          <?php else : ?>
+            <div class="item">
+          <?php endif; ?>
+              <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_inicio']); ?>" alt="" width="100%" height="auto">
+              </div>
+        <?php endfor; ?> 
+            </div>
 
-        <div class="item">
-          <img src="https://source.unsplash.com/random/1920x1080/?beach" alt="" width="100%" height="auto">
-        </div>
-
-        <div class="item">
-          <img src="https://source.unsplash.com/random/1920x1080/?bar" alt="" width="100%" height="auto">
-        </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
       </div>
-
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-  </div>
 </section>
 
 <section>
   <div class="coluna01">
-    <img src="img/a1.jpg" alt="" height="auto">
-    <img src="img/B8.jpg" alt="" height="auto">
-    <img src="img/MA.jpg" alt="" height="auto">
-    <img src="img/B8.jpg" alt="" height="auto">
-    <img src="img/a14.jpg" alt="" height="auto">
-    <img src="img/a2.jpg" alt="" height="auto">
+    <?php foreach ($lista as $img) : ?>
+      <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($img['imagem_inicio']); ?>" alt="" height="auto">
+    <?php endforeach; ?>
   </div>
 </section>
 

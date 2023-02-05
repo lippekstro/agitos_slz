@@ -1,20 +1,21 @@
 create database agitos_slz;
 
-create table usuario (
+create table usuarios (
     id_usuario int not null auto_increment,
-    nome varchar(200) not null,
+    nome_usuario varchar(200) not null,
     email varchar(200) not null,
     senha varchar(200) not null,
     primary key (id_usuario)
 );
 
-create table imagem (
-    id_img int not null auto_increment,
-    img_inicio longblob not null,
-    primary key (id_img)
+create table imagens (
+    id_imagem int not null auto_increment,
+    imagem_inicio longblob not null,
+    data_upload timestamp default current_timestamp,
+    primary key (id_imagem)
 );
 
-create table postagem (
+create table postagens (
     id_post int not null auto_increment,
     titulo varchar(250) not null,
     conteudo longtext not null,
@@ -22,7 +23,7 @@ create table postagem (
     data_publicacao timestamp default current_timestamp on update current_timestamp,
     id_usuario int not null,
     primary key (id_post),
-    foreign key (id_usuario) references usuario(id_usuario)
+    foreign key (id_usuario) references usuarios(id_usuario)
 );
 
 create table locais (
