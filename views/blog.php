@@ -1,35 +1,45 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/models/postagem.php';
+
+try {
+  $lista = Postagem::listar();
+} catch (Exception $e) {
+  echo $e->getMessage();
+}
 ?>
 
 <section>
   <div class="container">
-    <img src="/agitos_slz/img/leoes.jpg" alt="Palacio dos Leões" width="100%">
+    <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[0]['imagem_post']); ?>" alt="" width="100%">
 
     <div class="content">
-      <h1><b>São Luís</b></h1>
-      <h4>Roteiro de 15 dias na capital Maranhense.</h4>
-      <p style="text-align: center;">Juan Frazão | Fevereiro 02, 2023</p>
+      <h1><b><?= $lista[0]['titulo'] ?></b></h1>
+      <p style="text-align: center;"><?= $lista[0]['nome_autor'] ?> | <?= $lista[0]['data_publicacao'] ?></p>
     </div>
   </div>
 </section>
 
 <section class="container-cards">
-  <div class="card">
-    <a href="/agitos_slz/views/blog_exibe.php?id_postagem=#">
-      <div class="card-head">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-      </div>
-      <div class="card-img">
-        <img src="https://source.unsplash.com/random/1920x1080/?museum" alt="" width="100%" height="auto">
-      </div>
-      <div class="card-container">
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      </div>
-    </a>
-  </div>
+  <?php foreach ($lista as $post) : ?>
+    <div class="card">
+      <a href="/agitos_slz/views/blog_exibe.php?id_postagem=<?= $post['id_post'] ?>">
+        <div class="card-head">
+          <h2><?= $post['titulo'] ?></h2>
+          <div class="container-autor-data">
+            <h5><?= $post['nome_autor'] ?></h5>
+            <h5><?= $post['data_publicacao'] ?></h5>
+          </div>
+        </div>
+        <div class="card-img">
+          <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($post['imagem_post']); ?>" alt="" width="100%" height="auto">
+        </div>
+        <div class="card-container">
+          <p><?= $post['conteudo'] ?></p>
+        </div>
+      </a>
+    </div>
+  <?php endforeach; ?>
 </section>
 
 <?php

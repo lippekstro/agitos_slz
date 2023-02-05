@@ -8,8 +8,6 @@ try {
     $nome = new Usuarios($id_usuario); 
     $nome->deletar();
 
-    /* setcookie("msg", "Usuario Deletado");
-    setcookie("DELETAR", true); */
     header("Location: /agitos_slz/views/admin/admin_usuario.php");
 } catch (PDOException $e) {
     echo $e->getMessage();
