@@ -4,19 +4,19 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
 
 <section>
     <div class="slideshow-container">
-        <div class="mySlides fade">
+        <div class="mySlides efeito">
             <img src="../img/eventos slz.jpg" width="100%">
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides efeito">
             <img src="../img/praia e slz.jpg" width="100%">
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides efeito">
             <img src="../img/eventos slz.jpg" width="100%">
         </div>
 
-        <div class="mySlides fade">
+        <div class="mySlides efeito">
             <img src="../img/palacio.jpg" width="100%">
         </div>
 

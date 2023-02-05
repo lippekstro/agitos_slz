@@ -52,12 +52,12 @@
     background-color: #717171;
 }
 
-.fade {
-    animation-name: fade;
+.efeito {
+    animation-name: efeito;
     animation-duration: 1.5s;
 }
 
-@keyframes fade {
+@keyframes efeito {
     from {
         opacity: .4
     }
@@ -105,4 +105,13 @@ td {
     margin: 1rem;
 }
 
-@media screen and (max-width:60px) {}
+@media screen and (max-width:600px) {
+    .esp {
+        width: 100%;
+    }
+
+    .esp img {
+        width: 20rem;
+        height: 20rem;
+    }
+}

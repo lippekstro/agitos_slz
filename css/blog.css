@@ -15,6 +15,9 @@
 }
 
 /* blog_exibe */
+.blog-exibe {
+    margin: 10rem;
+}
 
 .blog-exibe h1 {
     text-align: center;
@@ -24,4 +27,11 @@
     text-align: justify;
     margin: 1rem;
     text-indent: 2rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+    }
 }

@@ -3,7 +3,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
 ?>
 
 <section>
-  <div class="container">
+  <div class="container-carrossel">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicadores da imagem com bolinhas  -->
       <ol class="carousel-indicators">
@@ -41,12 +41,12 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
 
 <section>
   <div class="coluna01">
-    <img src="img/a1.jpg" alt="" width="25%" height="auto">
-    <img src="img/B8.jpg" alt="" width="25%" height="auto">
-    <img src="img/MA.jpg" alt="" width="25%" height="auto">
-    <img src="img/B8.jpg" alt="" width="25%" height="auto">
-    <img src="img/a14.jpg" alt="" width="25%" height="auto">
-    <img src="img/a2.jpg" alt="" width="25%" height="auto">
+    <img src="img/a1.jpg" alt="" height="auto">
+    <img src="img/B8.jpg" alt="" height="auto">
+    <img src="img/MA.jpg" alt="" height="auto">
+    <img src="img/B8.jpg" alt="" height="auto">
+    <img src="img/a14.jpg" alt="" height="auto">
+    <img src="img/a2.jpg" alt="" height="auto">
   </div>
 </section>
 

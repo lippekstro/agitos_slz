@@ -26,3 +26,11 @@
     padding: 1rem;
     text-align: justify;
 }
+
+@media screen and (max-width:600px) {
+    .card {
+        width: 85%;
+        height: 40rem;
+        overflow: auto;
+    }
+}

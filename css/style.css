@@ -32,28 +32,32 @@ header img:hover {
 
 }
 
+nav {
+  margin: 2rem;
+}
+
 ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   list-style-type: none;
-  padding: 20;
   font-size: 18px;
   width: 100%;
 }
 
 li {
-  float: right;
+  margin: 1rem;
 }
 
 li a {
-  display: block;
   color: rgb(32, 25, 25);
-  text-align: end;
-  padding: 18px;
+  padding: 1rem;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.carousel-inner {
-  margin-top: 6%;
+.container-carrossel {
+  display: flex;
+  justify-content: center;
 }
 
 .coluna01 {
@@ -65,4 +69,20 @@ li a {
 
 .coluna01 img {
   margin: 0.5rem;
+  width: 25%;
+}
+
+@media screen and (max-width:600px) {
+  ul {
+    justify-content: center;
+  }
+
+  .container-carrossel {
+    width: 100%;
+  }
+
+  .coluna01 img {
+    width: 100%;
+  }
+
 }
