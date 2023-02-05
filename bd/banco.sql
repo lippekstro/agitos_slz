@@ -8,6 +8,8 @@ create table usuarios (
     primary key (id_usuario)
 );
 
+INSERT INTO usuarios (nome_usuario, email, senha) VALUES ('Admin', 'admin@mail.com', '$2y$10$dE0FnEqee2fdxfKhWddFpOt55BgTw5oj7OsAq0xfXXyLBV1HKVVAi');
+
 create table imagens (
     id_imagem int not null auto_increment,
     imagem_inicio longblob not null,

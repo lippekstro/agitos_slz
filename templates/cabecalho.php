@@ -1,5 +1,6 @@
-<?php 
+<?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/bd/conexao.php';
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -43,6 +44,26 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/bd/conexao.php';
           <li><a href="/agitos_slz/views/experiencias.php"> Experiencias</a></li>
           <li><a href="/agitos_slz/views/eventos.php">Eventos </a></li>
           <li><a href="/agitos_slz/views/sobre.php">Sobre</a></li>
+          <li>
+            <?php if (!isset($_SESSION['usuario']['nome_usuario'])) : ?>
+              <a href="/agitos_slz/views/admin/login.php">
+                <span class="material-symbols-outlined">login</span>
+              </a>
+            <?php else : ?>
+              <div class="dropdown">
+                <div class="form-item">
+                  <span><?= $_SESSION['usuario']['nome_usuario'] ?></span>
+                  <span class="material-symbols-outlined">account_circle</span>
+                </div>
+
+                <div class="dropdown-content">
+                  <a href="/agitos_slz/views/admin/admin_imagens.php">Gerenciamento de Imagens</a>
+                  <a href="/agitos_slz/views/admin/admin_usuario.php">Gerenciamento de Usuários</a>
+                  <a href="/agitos_slz/controllers/logout_controller.php">Logout</a>
+                </div>
+              </div>
+            <?php endif; ?>
+          </li>
         </ul>
       </nav>
     </div>

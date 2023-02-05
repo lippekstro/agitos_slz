@@ -16,7 +16,7 @@ class Usuarios {
 
     public function carregar()
     {
-        $query = "SELECT nome_usuario, email, senha FROM usuario WHERE id_usuario = :id_usuario";
+        $query = "SELECT nome_usuario, email, senha FROM usuarios WHERE id_usuario = :id_usuario";
         $conexao = conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(':id_usuario', $this->id_usuario);
@@ -31,7 +31,7 @@ class Usuarios {
 
     public function deletar()
     {
-        $query = "DELETE FROM usuario WHERE id_usuario=:id_usuario";
+        $query = "DELETE FROM usuarios WHERE id_usuario=:id_usuario";
         $conexao = Conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(":id_usuario", $this->id_usuario);
@@ -40,7 +40,7 @@ class Usuarios {
 
     public function editar_usuario()
     {
-        $query = "UPDATE usuario SET nome_usuario = :nome_usuario, email = :email WHERE id_usuario = :id_usuario";
+        $query = "UPDATE usuarios SET nome_usuario = :nome_usuario, email = :email WHERE id_usuario = :id_usuario";
         $conexao = Conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(":nome_usuario", $this->nome_usuario);
@@ -51,7 +51,7 @@ class Usuarios {
 
     public function criar()
     {
-        $query = "INSERT INTO usuario (nome_usuario, email, senha) VALUES (:nome_usuario, :email, :senha)";
+        $query = "INSERT INTO usuarios (nome_usuario, email, senha) VALUES (:nome_usuario, :email, :senha)";
         $conexao = Conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(':nome_usuario', $this->nome_usuario);
@@ -62,7 +62,7 @@ class Usuarios {
 
     public static function listar()
     {
-        $query = "SELECT * FROM usuario";
+        $query = "SELECT * FROM usuarios";
         $conexao = conexao::conectar();
         $resultado = $conexao->query($query);
         $lista = $resultado->fetchAll();
@@ -72,7 +72,7 @@ class Usuarios {
     public static function listarPorUsuario($palavra)
     {
         $palavra = "%" . $palavra . "%";
-        $query = "select * from usuario where nome_usuario like :palavra";
+        $query = "select * from usuarios where nome_usuario like :palavra";
         $conexao = Conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(":palavra", $palavra);
