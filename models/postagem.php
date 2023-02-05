@@ -67,6 +67,17 @@ class Postagem
         return $lista;
     }
 
+    public static function nomeAutor($id_usuario)
+    {
+        $query = "select u.nome_usuario as nome_autor from postagens p
+        inner join usuarios u on p.id_usuario = u.id_usuario limit 1";
+        $conexao = Conexao::conectar();
+        $stmt = $conexao->query($query);
+        $stmt->bindValue(":id_usuario", $id_usuario);
+        $lista = $stmt->fetch();
+        return $lista['nome_autor'];
+    }
+
     public function deletar()
     {
         $query = "DELETE FROM postagens WHERE id_post=:id_post";

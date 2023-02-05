@@ -11,19 +11,21 @@ try {
 
 <section>
   <div class="container">
-    <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[0]['imagem_post']); ?>" alt="" width="100%">
+    <a href="/agitos_slz/views/blog_exibe.php?id_post=<?= $lista[0]['id_post'] ?>">
+      <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[0]['imagem_post']); ?>" alt="" width="100%">
 
-    <div class="content">
-      <h1><b><?= $lista[0]['titulo'] ?></b></h1>
-      <p style="text-align: center;"><?= $lista[0]['nome_autor'] ?> | <?= $lista[0]['data_publicacao'] ?></p>
-    </div>
+      <div class="content">
+        <h1><b><?= $lista[0]['titulo'] ?></b></h1>
+        <p style="text-align: center;"><?= $lista[0]['nome_autor'] ?> | <?= $lista[0]['data_publicacao'] ?></p>
+      </div>
+    </a>
   </div>
 </section>
 
 <section class="container-cards">
   <?php foreach ($lista as $post) : ?>
     <div class="card">
-      <a href="/agitos_slz/views/blog_exibe.php?id_postagem=<?= $post['id_post'] ?>">
+      <a href="/agitos_slz/views/blog_exibe.php?id_post=<?= $post['id_post'] ?>">
         <div class="card-head">
           <h2><?= $post['titulo'] ?></h2>
           <div class="container-autor-data">
