@@ -15,7 +15,7 @@ try {
         <div class="card-head">
             <h2><?= $evento->nome_evento ?></h2>
             <div class="container-autor-data">
-                <h5><?= $evento->data_evento ?> às <?= $evento->hora ?></h5>
+                <h5> <?= $date->format(new DateTime($evento->data_evento)) ?> às <?= $hora->format(new DateTime($evento->hora)) ?></h5>
                 <h5><?= $evento->local_evento ?></h5>
             </div>
         </div>

@@ -26,7 +26,7 @@ try {
         <?php foreach($lista as $post): ?>
         <tr>
             <td><?= $post['nome_evento'] ?></td>
-            <td><?= $post['data_evento'] ?></td>
+            <td><?= $date->format(new DateTime($post['data_evento'])) ?></td>
             <td><?= $post['local_evento'] ?></td>
             <td>
                     <a href="/agitos_slz/views/admin/editar_evento.php?id_evento=<?= $post['id_evento'] ?>">

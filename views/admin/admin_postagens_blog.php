@@ -26,7 +26,7 @@ try {
         <?php foreach($lista as $post): ?>
         <tr>
             <td><?= $post['titulo'] ?></td>
-            <td><?= $post['data_publicacao'] ?></td>
+            <td><?= $datahora->format(new DateTime($post['data_publicacao'])) ?></td>
             <td><?= $post['nome_autor'] ?></td>
             <td>
                     <a href="/agitos_slz/views/admin/editar_post.php?id_post=<?= $post['id_post'] ?>">

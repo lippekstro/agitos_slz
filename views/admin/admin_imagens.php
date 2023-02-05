@@ -25,7 +25,7 @@ try {
         <?php foreach($lista as $img): ?>
         <tr>
             <td><img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($img['imagem_inicio']); ?>" alt=""></td>
-            <td><?= $img['data_upload'] ?></td>
+            <td><?= $date->format(new DateTime($img['data_upload'])) ?></td>
             <td>
                 <a href="/agitos_slz/controllers/deletar_imagem_controller.php?id_imagem=<?= $img['id_imagem'] ?>">
                     <span class="material-symbols-outlined">delete</span>

@@ -41,7 +41,7 @@ try {
                     <a href="/agitos_slz/views/evento_exibe.php?id_evento=<?= $evento['id_evento'] ?>">
                         <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($evento['imagem_evento']); ?>" alt="">
                         <p>
-                            <?= $evento['nome_evento'] ?> / <?= $evento['data_evento'] ?>
+                            <?= $evento['nome_evento'] ?> / <?= $date->format(new DateTime($evento['data_evento'])) ?>
                         </p>
                     </a>
                 </div>

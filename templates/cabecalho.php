@@ -1,6 +1,35 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/bd/conexao.php';
 session_start();
+date_default_timezone_set("America/Sao_Paulo");
+
+$date = new IntlDateFormatter(
+  'pt_BR',
+  IntlDateFormatter::FULL,
+  IntlDateFormatter::FULL,
+  'America/Sao_Paulo',
+  IntlDateFormatter::GREGORIAN,
+  "dd 'de' MMMM 'de' yyyy"
+);
+
+$hora = new IntlDateFormatter(
+  'pt_BR',
+  IntlDateFormatter::FULL,
+  IntlDateFormatter::FULL,
+  'America/Sao_Paulo',
+  IntlDateFormatter::GREGORIAN,
+  "HH':'mm'h"
+);
+
+$datahora = new IntlDateFormatter(
+  'pt_BR',
+  IntlDateFormatter::FULL,
+  IntlDateFormatter::FULL,
+  'America/Sao_Paulo',
+  IntlDateFormatter::GREGORIAN,
+  "dd 'de' MMMM 'de' yyyy 'às' HH':'mm':'ss"
+);
+
 ?>
 
 <!DOCTYPE html>
