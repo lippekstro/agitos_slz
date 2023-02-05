@@ -1,25 +1,21 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/models/evento.php';
+
+try {
+    $lista = Evento::listar();
+} catch (Exception $e) {
+    echo $e->getMessage();
+}
 ?>
 
 <section>
     <div class="slideshow-container">
-        <div class="mySlides efeito">
-            <img src="../img/eventos slz.jpg" width="100%">
-        </div>
-
-        <div class="mySlides efeito">
-            <img src="../img/praia e slz.jpg" width="100%">
-        </div>
-
-        <div class="mySlides efeito">
-            <img src="../img/eventos slz.jpg" width="100%">
-        </div>
-
-        <div class="mySlides efeito">
-            <img src="../img/palacio.jpg" width="100%">
-        </div>
-
+        <?php for ($i = 0; $i < 4; $i++) : ?>
+            <div class="mySlides efeito">
+                <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_evento']); ?>" width="100%">
+            </div>
+        <?php endfor; ?>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
@@ -40,36 +36,16 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
         </div>
 
         <div class="conteinerespecialidades">
-            <div class="esp">
-                <a href="">
-                    <img src="../img/reggae.jpg" alt="Reggae">
-                    <p>Shows</p>
-                </a>
-            </div>
-            <div class="esp">
-                <a href="">
-                    <img src="../img/museus.jpg" alt="Museus">
-                    <p>Museus</p>
-                </a>
-            </div>
-            <div class="esp">
-                <a href="">
-                    <img src="../img/restaurantes.jpg" alt="Casa do Maranhão">
-                    <p>Restaurantes</p>
-                </a>
-            </div>
-            <div class="esp">
-                <a href="">
-                    <img src="../img/praia e slz.jpg" alt="Praias">
-                    <p>Praias</p>
-                </a>
-            </div>
-            <div class="esp">
-                <a href="">
-                    <img src="../img/festa da juçara.jpg" alt="festa da juçara">
-                    <p>Festa da Juçara</p>
-                </a>
-            </div>
+            <?php foreach ($lista as $evento) : ?>
+                <div class="esp">
+                    <a href="/agitos_slz/views/evento_exibe.php?id_evento=<?= $evento['id_evento'] ?>">
+                        <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($evento['imagem_evento']); ?>" alt="">
+                        <p>
+                            <?= $evento['nome_evento'] ?> / <?= $evento['data_evento'] ?>
+                        </p>
+                    </a>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

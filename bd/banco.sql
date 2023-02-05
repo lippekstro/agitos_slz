@@ -41,6 +41,7 @@ create table eventos (
     id_evento int not null auto_increment,
     nome_evento varchar(250) not null,
     imagem_evento longblob,
+    local_evento varchar(500) not null,
     hora time not null,
     data_evento date not null,
     descricao_evento longtext,
