@@ -42,8 +42,9 @@ try {
           </div>
         </a>
       </div>
+    <?php endfor; ?>
   </section>
-<?php endfor; ?>
+
 <?php else : ?>
   <section>
     Ainda não há postagens no blog
