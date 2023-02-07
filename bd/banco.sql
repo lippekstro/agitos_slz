@@ -33,7 +33,7 @@ create table locais (
     nome varchar(250) not null,
     endereco varchar(250) not null,
     categoria enum('fazer', 'ficar', 'comer') not null default 'fazer',
-    tipo enum('praia', 'museu', 'praca', 'parque', 'centro historico', 'igreja', 'artesanato', 'hotel', 'pousada', 'hostel', 'restaurante', 'bar', 'cafe') not null default 'centro historico',
+    tipo enum('praia', 'museu', 'praca', 'parque', 'centro historico', 'igreja', 'artesanato', 'shopping', 'pontos turisticos', 'teatro', 'hotel', 'pousada', 'hostel', 'restaurante', 'bar', 'cafe') not null default 'centro historico',
     coordenada varchar(250),
     primary key (id_local)
 );

@@ -51,6 +51,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
                 <option value="centro historico" selected>Centro Histórico</option>
                 <option value="igreja">Igreja</option>
                 <option value="artesanato">Artesanato</option>
+                <option value="shopping">Shopping</option>
+                <option value="pontos turisticos">Ponto Turístico</option>
+                <option value="teatro">Teatro</option>
                 <option value="hotel">Hotel</option>
                 <option value="pousada">Pousada</option>
                 <option value="hostel">Hostel</option>

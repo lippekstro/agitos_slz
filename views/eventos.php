@@ -14,7 +14,9 @@ try {
         <div class="slideshow-container">
             <?php for ($i = 0; $i < 4; $i++) : ?>
                 <div class="mySlides efeito">
-                    <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_evento']); ?>" width="100%">
+                    <div class="carrossel-img">
+                        <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_evento']); ?>" width="100%">
+                    </div>
                 </div>
             <?php endfor; ?>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

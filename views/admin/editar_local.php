@@ -60,6 +60,9 @@ try {
                 <option value="centro historico" <?= ($local->tipo == 'centro historico')? 'selected':''; ?>>Centro Histórico</option>
                 <option value="igreja" <?= ($local->tipo == 'igreja')? 'selected':''; ?>>Igreja</option>
                 <option value="artesanato" <?= ($local->tipo == 'artesanato')? 'selected':''; ?>>Artesanato</option>
+                <option value="shopping" <?= ($local->tipo == 'shopping')? 'selected':''; ?>>Shopping</option>
+                <option value="pontos turisticos" <?= ($local->tipo == 'pontos turisticos')? 'selected':''; ?>>Ponto Turístico</option>
+                <option value="teatro" <?= ($local->tipo == 'teatro')? 'selected':''; ?>>Teatro</option>
                 <option value="hotel" <?= ($local->tipo == 'hotel')? 'selected':''; ?>>Hotel</option>
                 <option value="pousada" <?= ($local->tipo == 'pousada')? 'selected':''; ?>>Pousada</option>
                 <option value="hostel" <?= ($local->tipo == 'hostel')? 'selected':''; ?>>Hostel</option>

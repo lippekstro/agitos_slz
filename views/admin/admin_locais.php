@@ -11,13 +11,13 @@ try {
 ?>
 
 <section class="container-table">
-    <table>
+    <table id="tabela_locais">
         <caption>Administração de Locais</caption>
         <tr>
             <th>Nome do Local</th>
             <th>Endereço</th>
-            <th>Categoria</th>
-            <th>Tipo</th>
+            <th onclick="sortTable(0)">Categoria</th>
+            <th onclick="sortTable(1)">Tipo</th>
             <th colspan="2">
                 <a href="/agitos_slz/views/admin/adicionar_local.php">
                     <span class="material-symbols-outlined">add</span>

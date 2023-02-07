@@ -5,6 +5,15 @@
     margin: auto;
 }
 
+.slideshow-container img{
+    width: 50rem;
+}
+
+.carrossel-img{
+    display: flex;
+    justify-content: center;
+}
+
 .mySlides {
     display: none;
 }
@@ -83,8 +92,8 @@ td {
 }
 
 .esp img {
-    width: 30rem;
-    height: 30rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .esp a {
@@ -102,6 +111,7 @@ td {
 
 .esp {
     margin: 1rem;
+    width: 20%;
 }
 
 @media screen and (max-width:600px) {
@@ -112,5 +122,9 @@ td {
     .esp img {
         width: 20rem;
         height: 20rem;
+    }
+
+    .slideshow-container img{
+        width: 100%;
     }
 }
