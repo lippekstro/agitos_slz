@@ -47,3 +47,17 @@ create table eventos (
     descricao_evento longtext,
     primary key(id_evento)
 );
+
+/* alguns registros */
+
+INSERT INTO locais (nome, endereco, categoria, tipo) 
+VALUES ('Palácio dos Leões', 'R. Dom Pedro II, S/N - Centro, São Luís - MA, 65010-070', 'fazer', 'centro historico');
+
+INSERT INTO locais (nome, endereco, categoria, tipo) 
+VALUES ('Museu do Reggae', 'R. da Estrela, 124 - Centro Histórico, São Luís - MA, 65010-200', 'fazer', 'centro historico');
+
+INSERT INTO locais (nome, endereco, categoria, tipo) 
+VALUES ('Praia do Araçagy', 'Av. Atlântica, 1088 - Araçagy, São José de Ribamar - MA, 65110-000', 'fazer', 'praia');
+
+INSERT INTO locais (nome, endereco, categoria, tipo) 
+VALUES ("Praia Do Olho D'água", "Av. São Carlos, 20 - Olho D'agua, São Luís - MA, 65067-430", 'fazer', 'praia');

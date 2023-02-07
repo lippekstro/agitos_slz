@@ -21,7 +21,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -34,7 +33,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -47,7 +45,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -60,7 +57,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -73,7 +69,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -86,7 +81,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -99,7 +93,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -117,7 +110,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -130,7 +122,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -143,7 +134,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -161,7 +151,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -174,7 +163,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -187,7 +175,6 @@ try {
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
               <p>Endereco: <?= $local['endereco'] ?></p>
-              <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
