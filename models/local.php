@@ -5,7 +5,8 @@ class Local {
     public $nome;
     public $endereco;
     public $categoria;
-    public $tipo;    
+    public $tipo;
+    public $coordenada;    
 
     public function __construct($id_local = false)
     {
@@ -17,7 +18,7 @@ class Local {
 
     public function carregar()
     {
-        $query = "SELECT nome, endereco, categoria, tipo FROM locais WHERE id_local = :id_local";
+        $query = "SELECT nome, endereco, categoria, tipo, coordenada FROM locais WHERE id_local = :id_local";
         $conexao = conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(':id_local', $this->id_local);
@@ -29,6 +30,8 @@ class Local {
         $this->endereco = $lista['endereco'];
         $this->categoria = $lista['categoria'];
         $this->tipo = $lista['tipo'];
+        $this->coordenada = $lista['coordenada'];
+
     }
 
     public function deletar()
@@ -42,26 +45,28 @@ class Local {
 
     public function editar()
     {
-        $query = "UPDATE locais SET nome = :nome, endereco = :endereco, categoria = :categoria, tipo = :tipo WHERE id_local = :id_local";
+        $query = "UPDATE locais SET nome = :nome, endereco = :endereco, categoria = :categoria, tipo = :tipo, coordenada = :coordenada WHERE id_local = :id_local";
         $conexao = Conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(":nome", $this->nome);
         $stmt->bindValue(":endereco", $this->endereco);
         $stmt->bindValue(":categoria", $this->categoria);
         $stmt->bindValue(":tipo", $this->tipo);
+        $stmt->bindValue(":coordenada", $this->coordenada);
         $stmt->bindValue(":id_local", $this->id_local);
         $stmt->execute();
     }
 
     public function criar()
     {
-        $query = "INSERT INTO locais (nome, endereco, categoria, tipo) VALUES (:nome, :endereco, :categoria, :tipo)";
+        $query = "INSERT INTO locais (nome, endereco, categoria, tipo, coordenada) VALUES (:nome, :endereco, :categoria, :tipo, :coordenada)";
         $conexao = Conexao::conectar();
         $stmt = $conexao->prepare($query);
         $stmt->bindValue(':nome', $this->nome);
         $stmt->bindValue(':endereco', $this->endereco);
         $stmt->bindValue(':categoria', $this->categoria);
         $stmt->bindValue(':tipo', $this->tipo);
+        $stmt->bindValue(':coordenada', $this->coordenada);
         $stmt->execute();
     }
 

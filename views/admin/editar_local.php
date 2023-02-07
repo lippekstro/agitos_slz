@@ -32,6 +32,14 @@ try {
         </div>
         <div class="form-item">
             <div class="col-25">
+                <label for="coordenada">Coordenada</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="coordenada" name="coordenada" value="<?= $local->coordenada ?>">
+            </div>
+        </div>
+        <div class="form-item">
+            <div class="col-25">
                 <label for="categoria">Categoria</label>
             </div>
             <select id="categoria" name="categoria" class="col-75">

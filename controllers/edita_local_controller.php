@@ -7,6 +7,7 @@ try {
     $endereco = htmlspecialchars($_POST['endereco']);
     $categoria = $_POST['categoria'];
     $tipo = $_POST['tipo'];
+    $coordenada = htmlspecialchars($_POST['coordenada']);
     $id_local = $_POST['id_local'];
 
     $local = new Local($id_local);
@@ -14,6 +15,7 @@ try {
     $local->endereco = $endereco;
     $local->categoria = $categoria;
     $local->tipo = $tipo;
+    $local->coordenada = $coordenada;
 
     $local->editar();
 

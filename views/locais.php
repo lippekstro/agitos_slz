@@ -20,7 +20,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'praia') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -32,7 +32,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'museu') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -44,7 +44,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'praca') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -56,7 +56,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'parque') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -68,7 +68,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'centro historico') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -80,7 +80,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'igreja') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -92,7 +92,7 @@ try {
           <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'artesanato') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -109,7 +109,7 @@ try {
           <?php if ($local['categoria'] == 'ficar' && $local['tipo'] == 'hotel') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -121,7 +121,7 @@ try {
           <?php if ($local['categoria'] == 'ficar' && $local['tipo'] == 'hostel') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -133,7 +133,7 @@ try {
           <?php if ($local['categoria'] == 'ficar' && $local['tipo'] == 'pousada') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -150,7 +150,7 @@ try {
           <?php if ($local['categoria'] == 'comer' && $local['tipo'] == 'restaurante') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -162,7 +162,7 @@ try {
           <?php if ($local['categoria'] == 'comer' && $local['tipo'] == 'bar') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>
@@ -174,7 +174,7 @@ try {
           <?php if ($local['categoria'] == 'comer' && $local['tipo'] == 'cafe') : ?>
             <div class="novo-local">
               <p>Nome: <?= $local['nome'] ?></p>
-              <p>Endereco: <?= $local['endereco'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
             </div>
           <?php endif; ?>
         <?php endforeach; ?>

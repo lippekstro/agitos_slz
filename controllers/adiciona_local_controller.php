@@ -10,11 +10,13 @@ try {
     $endereco = htmlspecialchars($_POST['endereco']);
     $categoria = $_POST['categoria'];
     $tipo = $_POST['tipo'];
+    $coordenada = htmlspecialchars($_POST['coordenada']);
     
     $local->nome = $nome_local;
     $local->endereco = $endereco;
     $local->categoria = $categoria;
-    $local->tipo  = $tipo;
+    $local->tipo = $tipo;
+    $local->coordenada = $coordenada;
     
     $local->criar();
 
