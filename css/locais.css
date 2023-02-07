@@ -1,0 +1,8 @@
+.novo-local {
+    border-bottom: 1px double black;
+    margin: 1rem;
+}
+
+.maiusculas {
+    text-transform: uppercase;
+}

@@ -203,11 +203,10 @@ select {
 
 /* Style the accordion panel. Note: hidden by default */
 .painel {
-  padding: 0 18px;
+  padding: 1rem;
   background-color: white;
   display: none;
   overflow: hidden;
-  border: 1px double black;
 }
 
 @media screen and (max-width:600px) {

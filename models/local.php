@@ -67,7 +67,7 @@ class Local {
 
     public static function listar()
     {
-        $query = "SELECT * FROM locais";
+        $query = "SELECT * FROM locais ORDER BY nome ASC";
         $conexao = conexao::conectar();
         $resultado = $conexao->query($query);
         $lista = $resultado->fetchAll();

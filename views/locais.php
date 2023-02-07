@@ -13,38 +13,45 @@ try {
 <?php if (count($lista) > 0) : ?>
   <section>
     <button class="accordion">O Que Fazer?</button>
-    <?php foreach ($lista as $local) : ?>
-      <?php if ($local['categoria'] == 'fazer') : ?>
-        <div class="painel">
-          <p>Nome: <?= $local['nome'] ?></p>
-          <p>Endereco: <?= $local['endereco'] ?></p>
-          <p>Tipo: <?= $local['tipo'] ?></p>
-        </div>
-      <?php endif; ?>
-    <?php endforeach; ?>
+    <div class="painel">
+      <?php foreach ($lista as $local) : ?>
+        <?php if ($local['categoria'] == 'fazer') : ?>
+          <div class="novo-local">
+            <p>Nome: <?= $local['nome'] ?></p>
+            <p>Endereco: <?= $local['endereco'] ?></p>
+            <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
+          </div>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    </div>
 
     <button class="accordion">Onde Ficar?</button>
-    <?php foreach ($lista as $local) : ?>
-      <?php if ($local['categoria'] == 'ficar') : ?>
-        <div class="painel">
-          <p>Nome: <?= $local['nome'] ?></p>
-          <p>Endereco: <?= $local['endereco'] ?></p>
-          <p>Tipo: <?= $local['tipo'] ?></p>
-        </div>
-      <?php endif; ?>
-    <?php endforeach; ?>
+    <div class="painel">
+      <?php foreach ($lista as $local) : ?>
+        <?php if ($local['categoria'] == 'ficar') : ?>
+          <div class="novo-local">
+            <p>Nome: <?= $local['nome'] ?></p>
+            <p>Endereco: <?= $local['endereco'] ?></p>
+            <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
+          </div>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    </div>
 
     <button class="accordion">Onde Comer?</button>
-    <?php foreach ($lista as $local) : ?>
-      <?php if ($local['categoria'] == 'comer') : ?>
-        <div class="painel">
-          <p>Nome: <?= $local['nome'] ?></p>
-          <p>Endereco: <?= $local['endereco'] ?></p>
-          <p>Tipo: <?= $local['tipo'] ?></p>
-        </div>
-      <?php endif; ?>
-    <?php endforeach; ?>
+    <div class="painel">
+      <?php foreach ($lista as $local) : ?>
+        <?php if ($local['categoria'] == 'comer') : ?>
+          <div class="novo-local">
+            <p>Nome: <?= $local['nome'] ?></p>
+            <p>Endereco: <?= $local['endereco'] ?></p>
+            <p>Tipo: <span class="maiusculas"><?= $local['tipo'] ?></span></p>
+          </div>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    </div>
   </section>
+
 <?php else : ?>
   <section>
     Ainda não há locais cadastrados
