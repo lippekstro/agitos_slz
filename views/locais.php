@@ -12,29 +12,32 @@ try {
 
 <?php if (count($lista) > 0) : ?>
   <section>
+    <button class="accordion">O Que Fazer?</button>
     <?php foreach ($lista as $local) : ?>
-
-      <button class="accordion">O que fazer?</button>
       <?php if ($local['categoria'] == 'fazer') : ?>
-        <div class="panel">
+        <div class="painel">
           <p>Nome: <?= $local['nome'] ?></p>
           <p>Endereco: <?= $local['endereco'] ?></p>
           <p>Tipo: <?= $local['tipo'] ?></p>
         </div>
       <?php endif; ?>
+    <?php endforeach; ?>
 
-      <button class="accordion">Onde Ficar?</button>
+    <button class="accordion">Onde Ficar?</button>
+    <?php foreach ($lista as $local) : ?>
       <?php if ($local['categoria'] == 'ficar') : ?>
-        <div class="panel">
+        <div class="painel">
           <p>Nome: <?= $local['nome'] ?></p>
           <p>Endereco: <?= $local['endereco'] ?></p>
           <p>Tipo: <?= $local['tipo'] ?></p>
         </div>
       <?php endif; ?>
+    <?php endforeach; ?>
 
-      <button class="accordion">Onde Comer?</button>
+    <button class="accordion">Onde Comer?</button>
+    <?php foreach ($lista as $local) : ?>
       <?php if ($local['categoria'] == 'comer') : ?>
-        <div class="panel">
+        <div class="painel">
           <p>Nome: <?= $local['nome'] ?></p>
           <p>Endereco: <?= $local['endereco'] ?></p>
           <p>Tipo: <?= $local['tipo'] ?></p>

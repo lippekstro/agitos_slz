@@ -95,7 +95,7 @@ button {
   color: white;
 }
 
-.container-form form{
+.container-form form {
   display: flex;
   flex-direction: column;
 }
@@ -116,7 +116,9 @@ button {
   align-items: center;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   padding: 1rem;
   width: 100%;
 }
@@ -127,7 +129,7 @@ input, textarea, select {
   align-items: center;
 }
 
-.container-login .form-item{
+.container-login .form-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,6 +181,33 @@ input, textarea, select {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.aberto,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.painel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  border: 1px double black;
 }
 
 @media screen and (max-width:600px) {
