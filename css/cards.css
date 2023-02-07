@@ -58,4 +58,12 @@
         height: 45rem;
         overflow: hidden;
     }
+
+    .card-evento {
+        width: 100%;
+    }
+
+    .container-autor-data {
+        flex-direction: column;
+    }
 }

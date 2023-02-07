@@ -88,6 +88,7 @@ $datahora = new IntlDateFormatter(
                 <div class="dropdown-content">
                   <a href="/agitos_slz/views/admin/admin_imagens.php">Gerenciamento de Imagens</a>
                   <a href="/agitos_slz/views/admin/admin_postagens_blog.php">Gerenciamento do Blog</a>
+                  <a href="/agitos_slz/views/admin/admin_locais.php">Gerenciamento do Locais</a>
                   <a href="/agitos_slz/views/admin/admin_eventos.php">Gerenciamento de Eventos</a>
                   <a href="/agitos_slz/views/admin/admin_usuario.php">Gerenciamento de Usuários</a>
                   <a href="/agitos_slz/controllers/logout_controller.php">Logout</a>

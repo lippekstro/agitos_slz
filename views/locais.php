@@ -1,22 +1,46 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/templates/cabecalho.php';
-/* require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/models/locais.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/agitos_slz/models/local.php';
 
 try {
   $lista = Local::listar();
 } catch (Exception $e) {
   echo $e->getMessage();
-} */
+}
 
-/* comentei acima os requires necessarios do back end e a geracao da lista...
-abaixo eu gero a lista vazia para ele passar na verificacao enquanto ainda estamos no front end */
-
-$lista = [];
 ?>
 
 <?php if (count($lista) > 0) : ?>
   <section>
-    <!-- o codigo da equipe aqui dentro -->
+    <?php foreach ($lista as $local) : ?>
+
+      <button class="accordion">O que fazer?</button>
+      <?php if ($local['categoria'] == 'fazer') : ?>
+        <div class="panel">
+          <p>Nome: <?= $local['nome'] ?></p>
+          <p>Endereco: <?= $local['endereco'] ?></p>
+          <p>Tipo: <?= $local['tipo'] ?></p>
+        </div>
+      <?php endif; ?>
+
+      <button class="accordion">Onde Ficar?</button>
+      <?php if ($local['categoria'] == 'ficar') : ?>
+        <div class="panel">
+          <p>Nome: <?= $local['nome'] ?></p>
+          <p>Endereco: <?= $local['endereco'] ?></p>
+          <p>Tipo: <?= $local['tipo'] ?></p>
+        </div>
+      <?php endif; ?>
+
+      <button class="accordion">Onde Comer?</button>
+      <?php if ($local['categoria'] == 'comer') : ?>
+        <div class="panel">
+          <p>Nome: <?= $local['nome'] ?></p>
+          <p>Endereco: <?= $local['endereco'] ?></p>
+          <p>Tipo: <?= $local['tipo'] ?></p>
+        </div>
+      <?php endif; ?>
+    <?php endforeach; ?>
   </section>
 <?php else : ?>
   <section>

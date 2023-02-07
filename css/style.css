@@ -116,7 +116,7 @@ button {
   align-items: center;
 }
 
-input, textarea {
+input, textarea, select {
   padding: 1rem;
   width: 100%;
 }
