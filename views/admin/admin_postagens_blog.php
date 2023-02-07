@@ -23,12 +23,12 @@ try {
                 </a>
             </th>
         </tr>
-        <?php foreach($lista as $post): ?>
-        <tr>
-            <td><?= $post['titulo'] ?></td>
-            <td><?= $datahora->format(new DateTime($post['data_publicacao'])) ?></td>
-            <td><?= $post['nome_autor'] ?></td>
-            <td>
+        <?php foreach ($lista as $post) : ?>
+            <tr>
+                <td><?= $post['titulo'] ?></td>
+                <td><?= $datahora->format(new DateTime($post['data_publicacao'])) ?></td>
+                <td><?= $post['nome_autor'] ?></td>
+                <td>
                     <a href="/agitos_slz/views/admin/editar_post.php?id_post=<?= $post['id_post'] ?>">
                         <span class="material-symbols-outlined">edit</span>
                     </a>
@@ -38,7 +38,7 @@ try {
                         <span class="material-symbols-outlined">delete</span>
                     </a>
                 </td>
-        </tr>
+            </tr>
         <?php endforeach; ?>
     </table>
 </section>
