@@ -22,7 +22,18 @@
 
 /* blog_exibe */
 .blog-exibe {
-    margin: 10rem;
+    margin: 0 20rem;
+}
+
+.blog-exibe img {
+    width: 50rem;
+    height: auto;
+}
+
+.container-img-blog-exibe {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .blog-exibe h1 {
@@ -32,7 +43,7 @@
 .blog-exibe p {
     text-align: justify;
     margin: 1rem;
-    text-indent: 2rem;
+    text-indent: 4rem;
 }
 
 
@@ -43,5 +54,10 @@
 
     .blog-exibe {
         margin: 0;
+    }
+
+    .blog-exibe img {
+        width: 100%;
+        height: auto;
     }
 }

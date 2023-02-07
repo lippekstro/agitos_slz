@@ -18,11 +18,18 @@ try {
         <span><?= $postagem->data_publicacao ?></span>
     </div>
 
-    <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($postagem->imagem_post); ?>" alt="" width="100%" height="auto">
-
-    <p>
-        <?= $postagem->conteudo ?>
-    </p>
+    <div class="container-img-blog-exibe">
+        <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($postagem->imagem_post); ?>" alt="" width="100%" height="auto">
+    </div>
+    <?php
+    $conteudo = $postagem->conteudo;
+    $texto_quebrado = explode("<br />", nl2br($conteudo));
+    foreach ($texto_quebrado as $paragrafo) :
+    ?>
+        <p>
+            <?= $paragrafo ?>
+        </p>
+    <?php endforeach; ?>
 
 </section>
 
