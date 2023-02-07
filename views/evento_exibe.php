@@ -11,7 +11,7 @@ try {
 ?>
 
 <section class="container-cards">
-    <div class="card">
+    <div class="card-evento">
         <div class="card-head">
             <h2><?= $evento->nome_evento ?></h2>
             <div class="container-autor-data">
@@ -23,7 +23,7 @@ try {
             <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($evento->imagem_evento); ?>" alt="" width="100%" height="auto">
         </div>
         <div class="card-container">
-            <p><?= $evento->descricao_evento ?></p>
+            <span><?= $evento->descricao_evento ?></span>
         </div>
     </div>
 </section>

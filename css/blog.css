@@ -40,4 +40,8 @@
     .container {
         width: 100%;
     }
+
+    .blog-exibe {
+        margin: 0;
+    }
 }

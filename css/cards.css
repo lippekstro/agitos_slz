@@ -4,16 +4,32 @@
     flex-wrap: wrap;
 }
 
-.card {
+.card, .card-evento {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
     margin: 1rem;
+    height: 45rem;
+    overflow: hidden;
+}
+
+.card-evento {
+    height: auto;
 }
 
 .card a {
     text-decoration: none;
     color: black;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img img {
+    width: 40rem;
+    height: auto;
 }
 
 .card:hover {
@@ -29,10 +45,17 @@
     text-align: justify;
 }
 
+.card-container p {
+    margin: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 @media screen and (max-width:600px) {
     .card {
         width: 85%;
-        height: 40rem;
-        overflow: auto;
+        height: 45rem;
+        overflow: hidden;
     }
 }

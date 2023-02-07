@@ -31,7 +31,7 @@ try {
 
 <section class="corpo">
     <div class="especialidades">
-        <div id="titulo">
+        <div id="titulo-evento">
             <h5> SE LIGA NA AGENDA CULTURAL DA ILHA DO AMOR</h5>
         </div>
 

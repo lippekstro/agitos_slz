@@ -28,7 +28,7 @@ try {
           <?php else : ?>
             <div class="item">
           <?php endif; ?>
-              <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_inicio']); ?>" alt="" width="100%" height="auto">
+              <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_inicio']); ?>" alt="">
               </div>
         <?php endfor; ?> 
             </div>

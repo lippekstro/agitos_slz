@@ -34,7 +34,7 @@ try {
           </div>
         </div>
         <div class="card-img">
-          <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_post']); ?>" alt="" width="100%" height="auto">
+          <img src="data:image/jpg;charset=utf8;base64,<?= base64_encode($lista[$i]['imagem_post']); ?>" alt="">
         </div>
         <div class="card-container">
           <p><?= $lista[$i]['conteudo'] ?></p>
