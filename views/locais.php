@@ -97,6 +97,42 @@ try {
           <?php endif; ?>
         <?php endforeach; ?>
       </div>
+
+      <button class="accordion">Shoppings</button>
+      <div class="painel">
+        <?php foreach ($lista as $local) : ?>
+          <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'shopping') : ?>
+            <div class="novo-local">
+              <p>Nome: <?= $local['nome'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
+            </div>
+          <?php endif; ?>
+        <?php endforeach; ?>
+      </div>
+
+      <button class="accordion">Pontos Turisticos</button>
+      <div class="painel">
+        <?php foreach ($lista as $local) : ?>
+          <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'pontos turisticos') : ?>
+            <div class="novo-local">
+              <p>Nome: <?= $local['nome'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
+            </div>
+          <?php endif; ?>
+        <?php endforeach; ?>
+      </div>
+
+      <button class="accordion">Teatros</button>
+      <div class="painel">
+        <?php foreach ($lista as $local) : ?>
+          <?php if ($local['categoria'] == 'fazer' && $local['tipo'] == 'teatro') : ?>
+            <div class="novo-local">
+              <p>Nome: <?= $local['nome'] ?></p>
+              <a href="https://www.google.com.br/maps/place/<?= $local['coordenada'] ?>" target="_blank"><?= $local['endereco'] ?></a>
+            </div>
+          <?php endif; ?>
+        <?php endforeach; ?>
+      </div>
     </div>
   </section>
 
