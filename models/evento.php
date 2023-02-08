@@ -64,7 +64,7 @@ class Evento{
 
     public static function listar()
     {
-        $query = "SELECT * FROM eventos ORDER BY data_evento DESC";
+        $query = "SELECT * FROM eventos ORDER BY data_evento ASC";
         $conexao = conexao::conectar();
         $resultado = $conexao->query($query);
         $lista = $resultado->fetchAll();
