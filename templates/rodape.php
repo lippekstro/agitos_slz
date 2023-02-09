@@ -20,6 +20,9 @@
       <a href="https://www.facebook.com" target="_blank">
         <img src="/agitos_slz/img/facebook.png" alt="simbolo facebook" width="60px" height="10%">
       </a>
+      <a href="mailto:exemplo@mail.com" target="_blank">
+        <img src="/img/email.svg" alt="simbolo email" width="60px" height="10%" style="filter: invert(100%) sepia(9%) saturate(169%) hue-rotate(48deg) brightness(98%) contrast(85%);">
+      </a>
     </div>
   </div>
 

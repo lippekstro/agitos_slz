@@ -70,7 +70,7 @@ $datahora = new IntlDateFormatter(
           <li><a href="/agitos_slz/index.php"> Inicio </a></li>
           <li><a href="/agitos_slz/views/blog.php"> Blog</a></li>
           <li><a href="/agitos_slz/views/locais.php">Locais</a></li>
-          <li><a href="/agitos_slz/views/experiencias.php"> Experiencias</a></li>
+          <!-- <li><a href="/agitos_slz/views/experiencias.php"> Experiencias</a></li> -->
           <li><a href="/agitos_slz/views/eventos.php">Eventos </a></li>
           <li><a href="/agitos_slz/views/sobre.php">Sobre</a></li>
           <li>
