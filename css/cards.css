@@ -9,7 +9,7 @@
     transition: 0.3s;
     width: 50%;
     margin: 1rem;
-    height: 45rem;
+   /*  height: 45rem; */
     overflow: hidden;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .card-container {
-    padding: 1rem;
+    padding: 3rem;
     text-align: justify;
 }
 
